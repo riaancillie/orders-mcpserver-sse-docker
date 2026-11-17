@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Bicep compiled output (az bicep build)
+main.json
+*.bicep.json
+
+# Deployment artifacts
+*.zip
+
+# Test/coverage output
+coverage/
+
+# Editor and OS noise
+.idea/
+.DS_Store
+Thumbs.db
